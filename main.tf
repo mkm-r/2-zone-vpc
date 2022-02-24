@@ -130,7 +130,7 @@ resource "ibm_is_ipsec_policy" "example" {
 resource "ibm_is_ike_policy" "example" {
   name                     = "test-ike-${random_id.name2.hex}"
   authentication_algorithm = "md5"
-  encryption_algorithm     = "3des"
+  encryption_algorithm     = "triple_des"
   dh_group                 = 2
   ike_version              = 1
 }
