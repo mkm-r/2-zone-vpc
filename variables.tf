@@ -8,8 +8,8 @@ variable "ssh_key_name" {
 }
 
 variable "image" {
-  default     = "7eb4e35b-4257-56f8-d7da-326d85452591"
-  description = "The ID of the image that represents the operating system that you want to install on your VPC virtual server. To list available images, run `ibmcloud is images`. The default image is for an `ubuntu-16.04-amd64` OS."
+  default     = "r006-396ef8b6-91a3-48ce-a83b-0c6f67105cad"
+  description = "The ID of the image that represents the operating system that you want to install on your VPC virtual server. To list available images, run `ibmcloud is images`. The default image is for an `ubuntu-20-04-amd64` OS."
 }
 
 variable "profile" {
