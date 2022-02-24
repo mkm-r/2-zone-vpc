@@ -34,6 +34,12 @@ Before you can apply the template in IBM Cloud, complete the following steps.
 
 Refer [versions.tf](versions.tf)
 
+|  **Name**                  | **Version** |
+|  --------------------------| -------------|
+|  terraform                 | >= 1.0 |
+|  terraform_provider_ibm    | = 1.38.0 |
+
+
 
 ## Configuring your deployment values
 
