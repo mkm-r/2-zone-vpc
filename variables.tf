@@ -3,7 +3,7 @@ variable "ssh_public_key" {
 }
 
 variable "ssh_key_name" {
-  default     = "VPC-ssh-key"
+  default     = "vpc-ssh-key"
   description = "The name of the public SSH key."
 }
 
