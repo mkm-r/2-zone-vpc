@@ -30,6 +30,11 @@ Before you can apply the template in IBM Cloud, complete the following steps.
     *  `ibmcloud plugin install vpc-infrastructure`
 4.  [Create or use an existing SSH key for VPC virtual servers](https://cloud.ibm.com/docs/vpc-on-classic-vsi?topic=vpc-on-classic-vsi-ssh-keys).
 
+## Terraform version requirements :  
+
+Refer [versions.tf](versions.tf)
+
+
 ## Configuring your deployment values
 
 When you select the [`2-zone-vpc`template](https://cloud.ibm.com/catalog/content/2-zone-vpc) from the IBM Cloud catalog, you set up your deployment variables from the **Create** page. When you apply the template, IBM Cloud Schematics provisions the resources according to the values that you specify for these variables.
