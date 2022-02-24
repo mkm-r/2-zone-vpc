@@ -123,7 +123,7 @@ resource "ibm_is_subnet" "subnet2" {
 resource "ibm_is_ipsec_policy" "example" {
   name                     = "test-ipsec-${random_id.name2.hex}"
   authentication_algorithm = "md5"
-  encryption_algorithm     = "3des"
+  encryption_algorithm     = "triple_des"
   pfs                      = "disabled"
 }
 
