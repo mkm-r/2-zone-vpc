@@ -53,7 +53,6 @@ resource "ibm_is_instance" "instance1" {
   profile = var.profile
 
   primary_network_interface {
-    port_speed = "1000"
     subnet     = ibm_is_subnet.subnet1.id
   }
 
